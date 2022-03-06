@@ -47,10 +47,9 @@ h1 {
     align-items: flex-start;
     width: 30%;
     color: #f9faf8;
-
 }
 
-img {
+.image {
     width: 600px;
     height: auto;
     margin-left: 200px;
@@ -64,3 +63,19 @@ img {
     background-color: #1F2937;
     padding: 50px;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.orcas {
+    display: flex;
+    
+}
+.orca1 {
+    height: 200px;
+    width: auto;
+}
+
+
