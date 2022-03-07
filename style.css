@@ -17,7 +17,7 @@ body {
 
 .links {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     margin-top: 15px;
 }
 
@@ -25,7 +25,7 @@ body {
     margin-top: 15px;
 }
 
-a {
+.link {
     text-decoration: none;
     color: white;
 }
@@ -69,6 +69,14 @@ h1 {
     justify-content: center;
 }
 
+.button1 {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #f9faf8;
+}
+
 .orcas {
     display: flex;
     justify-content: center;
@@ -76,36 +84,89 @@ h1 {
     gap: 48px;
 }
 
-.orca1 {
+.orcapic {
     display: flex;
-    height: 200px;
+    height: 150px;
     width: 200px;
     flex-direction: column;
-    gap: 8px;    
+    gap: 8px; 
+    border-style: solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    border-radius: 25px;
+    margin-top: 30px;
 }
 
-.orca2 {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    flex-direction: column;
-    gap: 8px;
+.orcadescribe {
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
-.orca3 {
+.quote {
     display: flex;
-    height: 200px;
-    width: 200px;
     flex-direction: column;
-    gap: 8px;
+    padding: 50px 400px;
+    background-color: #e5e7eb;
+    text-align: center;
 }
 
-.orca4 {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    flex-direction: column;
-    gap: 8px;
+.quote p {
+    font-size: 36px;
+    font-color: #1F2937;
+    font-style: italic;
+    }
+
+.quote b {
+    text-align: right;
+    font-size: 20px;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 40px 600px;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+
+.sign-up-text {
+    color: #f9faf8;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid;
+    border-radius: 15px;
+    padding: 5px 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937; 
+    color: #f9faf8;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+  }
+
+  .link2 {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
